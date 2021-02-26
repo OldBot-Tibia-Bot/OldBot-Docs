@@ -233,7 +233,7 @@ This one is pretty simple too. You're probably used to it in most websites/softw
 
 ## Combobox
 
-This lets you choose an option from a few pre-specified options. This is good to let the user choose, let's say, a city as destination, the type of ammunition, potion, or even the backpack used.
+This lets you choose an option from a few pre-specified options or a list of ingame items. This is good to let the user choose, let's say, a city as destination, the type of ammunition, potion, or even the backpack used.
 
 - **Properties:**
   - `type:` The widget type; "combobox" in this case.
