@@ -58,7 +58,7 @@ To build the setup, we'll have to work with a markup language called `JSON`. If 
 
 ## OK, but where to I put that JSON thing?
 
-You put the **JSON** inside a place we call **User Options**, which is just stylish way to say setup. You can find it under Cavebot > **Script Settings** tab, on the bottom right corner. It's a button named `Edit User Options`.
+You put the **JSON** inside a place we call **User Options**, which is just stylish way to say setup. You can find it under Cavebot > **Script Settings** tab, on the top right corner. It's a button named `Edit User Options`.
 
 ![](../_media/cavebot/script_setup/script_setup_2.png)
 
