@@ -106,7 +106,7 @@ A text control only, it's useful to show some information option or warn about s
 - **Properties:**
   - `type:` The widget type; "text" in this case.
   - `text:` The text to be displayed.
-  - `row:` Amount of rows reserved for the text, the longer the text is, more rows you will need to set here.
+  - `row:` Amount of rows reserved for the text, the longer the text is, more rows you will need to set here; default is 1.
 
 
 **Examples:**
@@ -173,7 +173,8 @@ This is one of the simplest widgets. It's basically a text field, in which you c
 		{
 			"type"  : "number",
 			"name"  : "staminaToLeave",
-			"text"  : "Stamina to leave:"
+			"text"  : "Stamina to leave:",
+			"value" : "40"
 		}
 	]
 }
