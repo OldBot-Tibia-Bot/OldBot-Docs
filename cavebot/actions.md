@@ -7,6 +7,11 @@ That being said, it has its own **syntax**, the way you should and should not wr
 
 > Since the Action script code is not any of the real programming/scripting language, the interpreter is currently quite simple, so there are a few **limitations** when writing code that a normal language normally doesn't have. It is still a working in progress to enchance and add new possibilities.
 
+*Example of action script code:*
+
+![](../_media/cavebot/action/action_code.png)
+
+
 ---
 
 
