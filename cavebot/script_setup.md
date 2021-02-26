@@ -3,6 +3,7 @@
 
 The Setup is where the user who downloads your script, or even yourself, will be able to configure the script, to make it suit his needs. You could add options to enable or disable specific hunting areas, specify custom behavior and much more; there are endless possibilities.
 
+> OldBot's setup is almost identical as WindBot's setups, with just a few differences in some properties. If you copy and paste a Windbot setup, it's probably gonna work correctly here aswell.
 
 # How to build a Setup?
 

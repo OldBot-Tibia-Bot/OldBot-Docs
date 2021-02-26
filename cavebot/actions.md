@@ -101,7 +101,7 @@ if ($success = false) then exitgame()
 
 # Conditions
 
-It's possible to write a condition to run a function, with the `if`, `then` and `else` statements, where the `else` is **optional** in the condition statement.
+It's possible to write a condition to run a function, using `if`, `then` and `else` statements, where the `else` is **optional** in the condition statement.
 
 It follows a very simple structure, to write if statement it's like this:<br>
 `if`**(** *condition* `<operator>` *value* **)** `then` *function()* `else` *function()*
