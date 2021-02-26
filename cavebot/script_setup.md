@@ -67,7 +67,7 @@ You put the **JSON** inside a place we call **User Options**, which is just styl
 
 Well, I'm glad you finally learned how to spell it correctly. We shall move on then: the Setup is based on widgets. A widget can be thought of as a setting in the setup. It's a text field, a checkbox, etc... Each widget has its functionality and we'll be going over every single one of them.
 
-I highly recommend you use the [JSON formatter](https://jsonformatter.curiousconcept.com/#) website, where you can paste your JSON code and it will format and validate for you.
+I highly recommend you use the [JSON formatter](https://jsonformatter.curiousconcept.com/#) website, where you can paste your JSON code and it will format and validate for you in case you screw up something.
 
 
 ---
