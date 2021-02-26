@@ -70,6 +70,7 @@ Well, I'm glad you finally learned how to spell it correctly. We shall move on t
 I highly recommend you use the [JSON formatter](https://jsonformatter.curiousconcept.com/#) website, where you can paste your JSON code and it will format and validate for you.
 
 
+---
 
 # Widgets
 
