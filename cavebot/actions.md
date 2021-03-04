@@ -1,7 +1,7 @@
 #
 # Definition
 
-The `Action` script code isn't any programming or scripting language, it is basically text that you write and the bot with its own interpreter, interprets ~~(really?)~~.
+The `Action` script code isn't any real programming or scripting language, it is basically text that you write and the bot with its own interpreter, interprets ~~(really?)~~.
 
 That being said, it has its own **syntax**, the way you should and should not write the code for it to work. It was planned to look like/be similar to *Windbot* action scripts, that were written in `lua`, but it still has many different characteristics.
 
@@ -9,7 +9,7 @@ That being said, it has its own **syntax**, the way you should and should not wr
 
 *Example of action script code:*
 
-![](../_media/cavebot/action/action_code.png)
+![Action script example](../_media/cavebot/action/action_code.png)
 
 
 ---
