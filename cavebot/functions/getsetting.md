@@ -27,7 +27,7 @@ Returns the setting value upon success, or `-1` otherwise.
 ?> To know what is the setting path of the option you want to check, you must open the script JSON file in any text editor(I recommend *Sublime Text*) and follow its structure.
 
 
-If I want to check if the **player on screen** alert is enabled, I open the script JSON file and see this:
+If I want to check if the **player on screen** alert is disabled, I open the script JSON file and see this:
 
 ![](../../_media/cavebot/functions/getsetting_example.png)
 
@@ -36,7 +36,7 @@ If I want to check if the **player on screen** alert is enabled, I open the scri
 So the path will be `alerts/playerOnScreen/enabled`, and the getsetting function:
 ```action
 $alertEnabled = getsetting(alerts/playerOnScreen/enabled)
-if ($alertEnabled = true) then ...
+if ($alertEnabled = false) then ...
 ```
 
 ---
