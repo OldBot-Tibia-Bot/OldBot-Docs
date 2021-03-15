@@ -65,7 +65,7 @@ You put the **JSON** inside a place we call **User Options**, which is just styl
 
 ## OK, but how do I build that JSON thing?
 
-Well, I'm glad you finally learned how to spell it correctly. We shall move on then: the Setup is based on widgets. A widget can be thought of as a setting in the setup. It's a text field, a checkbox, etc... Each widget has its functionality and we'll be going over every single one of them.
+The Setup is based on widgets. A widget can be thought of as a setting in the setup. It's a text field, a checkbox, etc... Each widget has its functionality and we'll be going over every single one of them.
 
 I highly recommend you use the [JSON formatter](https://jsonformatter.curiousconcept.com/#) or [JsonLint](https://jsonlint.com/), where you can paste your JSON code and it will format and validate for you in case you screw up something.
 
@@ -80,8 +80,8 @@ This is our main widget. It's inside it that we place all the other widgets.
 - **Properties:**
   - `name:` The name of the group box. It must be a **unique** name, no other group box can have the same name atribute.
   - `text:` The title of the group box; if none is provided, name is used.
-  - `description:` The description to be displayed on the tooltip when placing the mouse over the widget;
-  - `column:` The column the group box should be place on; 1 for first column(left), 2 for second(right.
+  - `description:` The description to be displayed on the tooltip when placing the mouse over the widget.
+  - `column:` The column the group box should be place on; 1 for first column(left), 2 for second(right).
   - `children:` The widgets the group box will contain.
 
 
@@ -248,7 +248,7 @@ This lets you choose an option from a few pre-specified options or a list of ing
 
 **Examples:**
 
-List of `items` with pre-specified options:
+1. List of `items` with pre-specified options:
 
 ![](../_media/cavebot/script_setup/combobox_widget.png)
 
@@ -271,7 +271,7 @@ List of `items` with pre-specified options:
 ```
 
 
-`filter` parameter as **potion**, it's a custom filter that only show the potions - in this case we don't use the `items` param:
+2. `filter` parameter as **potion**, it's a custom filter that only show the potions - in this case we don't use the `items` param:
 
 ![](../_media/cavebot/script_setup/combobox2_widget.png)
 
@@ -282,7 +282,7 @@ List of `items` with pre-specified options:
 	"children" : [
 		{
 			"type"        : "combobox",
-			"name"        : "potion",
+			"name"        : "potionToUse",
 			"text"        : "Mana Potion",
 			"description" : "Which mana potion you will use?",
 			"filter"      : "potion",
@@ -293,7 +293,7 @@ List of `items` with pre-specified options:
 ```
 
 
-`filter` parameter as a **list** of categories for Paladin weapons, you can add as many categories you want in the filter list - in this case we don't use the `items` param:
+3. `filter` parameter as a **list** of categories for Paladin weapons, you can add as many categories you want in the filter list - in this case we don't use the `items` param:
 
 ![](../_media/cavebot/script_setup/combobox3_widget.png)
 

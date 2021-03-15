@@ -5,11 +5,12 @@
 
 #### **English**
 
-Definição em português...
+English definition...
 
 #### **Portuguese**
 
-English definition...
+Definição em português...
+
 
 <!-- tabs:end -->
 
@@ -24,19 +25,19 @@ action()
 
 **Return Value**
 
-Returns the setting value upon success, or `-1` otherwise.
+Returns `true` upon success, or `false` otherwise.
 
 ---
 
 **Examples**
 
-#1: first example
+1. first example
 
 ```action
 
 ```
 
-2: second example
+2. second example
 
 ```action
 

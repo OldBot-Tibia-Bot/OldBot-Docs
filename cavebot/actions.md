@@ -67,14 +67,14 @@ A variable(currently) **can only receive a function as value**, that means a var
 Variables are commonly used in combination with the `getuseroption()` and `getsetting()` actions, to get the User settings from the Script Setup(getuseroption) and the bot settings(getsetting).
 
 
-**Examples:**
+## Examples
 
-#1: Create a variable named "manaPotions", that will receive the value of the function itemcount(mana potion):
+1. Create a variable named **manaPotions**, that will receive the value of the function itemcount(mana potion):
 ``` action
 $manaPotions = itemcount(mana potion)
 ```
 
-#2: Create a variable named "manaPotionSelected", that will receive the value of the function getuseroption(manaPotionToUse). For better understading of this example below, check the `getuseroption` documentation.
+2. Create a variable named **manaPotionSelected**, that will receive the value of the function `getuseroption(manaPotionToUse)`. For better understading of this example below, check the `getuseroption` documentation.
 
 ``` action
 $manaPotionSelected = getuseroption(manaPotionToUse)
@@ -101,7 +101,9 @@ if ($success = false) then exitgame()
 
 # Conditions
 
-It's possible to write a condition to run a function, using `if`, `then` and `else` statements, where the `else` is **optional** in the condition statement.
+It's possible to write a condition to run a function, using `if`, `then` and `else` statements.
+
+The `else` statement is **optional** in the condition, since it will always execute the next action script line, unless it reaches a function of `gotolabel` or `return`.
 
 It follows a very simple structure, to write if statement it's like this:<br>
 `if`**(** *condition* `<operator>` *value* **)** `then` *function()* `else` *function()*
@@ -118,9 +120,27 @@ It follows a very simple structure, to write if statement it's like this:<br>
 - `function():` the action script function, or it can also be a `return`, a return simply **aborts** the rest of the action script and run the next Waypoint.
 
 
-?> Examples
+## Variables in condition
 
-#1: Check the amount of `mana potion` and go to a label named `leaveHunt` if have less than `100`.
+The `condition` and `value` of the condition statement can be variables aswell, as shown in the examples below:
+
+1. Example with Condition and Value as variables:
+
+`if ($potion < $amount) then gotolabel(leaveHunt)`
+
+
+2. In this example, the variable **A_Hour** don't have the `$` symbol because it's a built-in variable of the bot, in this case actually an AutoHotkey variable:
+
+`if (A_Hour = $serverSaveHour) then gotolabel(serverSave)`
+
+
+3. Another example with a built-in variable of the bot, using the `posz` variable, that stores the floor level that the char is:
+
+`if (posz = 7) then gotolabel(groundFloor)`
+
+## Examples
+
+1. Check the amount of **mana potion** and go to a label named `leaveHunt` if have less than `100`.
 - `condition:` function
   - itemcount(mana potion)
 - `operator:` lower `<`
@@ -130,10 +150,11 @@ It follows a very simple structure, to write if statement it's like this:<br>
 if (itemcount(mana potion) < 100) then gotolabel(leaveHunt)
 ```
 
-#2: Check the amount of `strong mana potion`, where the amount is a variable(`$amountOfPotions`) from the Script Setup. If the amount the char already have(`$potionsLeft`) is higher than the `$amountOfPotions`, it will abort the action(`return`), otherwise will run the next script lines to buy more potions.
+2. Check the amount of **strong mana potion**, where the amount is a variable(`$amountOfPotions`) from the Script Setup.
+<br>If the amount the char already have(`$potionsLeft`) is equal or higher than the `$amountOfPotions`, it will abort the action(`return`), otherwise will run the next script lines to buy more potions.
 - `condition:` variable
   - $potionsLeft
-- `operator:` higher `>`
+- `operator:` equal or higher `>=`
 - `value:` variable
   - $amountOfPotions
 
@@ -141,7 +162,7 @@ if (itemcount(mana potion) < 100) then gotolabel(leaveHunt)
 $amountOfPotions = getuseroption(healthPotionsToBuy)
 $potionsLeft = itemcount(strong mana potion)
 
-if ($potionsLeft > $amountOfPotions) then return
+if ($potionsLeft >= $amountOfPotions) then return
 
 # buy $amountOfPotions units of strong mana potion, decreasing how many potions the char have ($potionsLeft)
 buyitemnpc(strong mana potion, $amountOfPotions, $potionsLeft)
@@ -151,12 +172,12 @@ buyitemnpc(strong mana potion, $amountOfPotions, $potionsLeft)
 
 # Rules & limitations
 
-- It's **not** possible to use logical operators such as `OR` and `AND` ;
-  - **Example1:** *if ($var1 = true* `||` *$var2 = true) then action()* 
-  - **Example2:** *if ($var1 = true* `&&` *$var2 > 25) then action()* 
-- The `if` condition statement must be between paretheses and the *action()* after the `then` 
-  - **Example:** `if` **(** *condition statement* **)** `then` *action()*
-- Only one(`1`) condition per **line**, the whole if statement must be in the same line(can't put the `else` statement in the next line);
+- It's **not** possible to use logical operators such as `OR` and `AND`:
+  - **Example1:** *if ($var1 = true* `||` *$var2 = true) then function()* 
+  - **Example2:** *if ($var1 = true* `&&` *$var2 > 25) then function()* 
+- The `if` condition statement must be between paretheses and the *function()* after the `then` :
+  - **Example:** `if` **(** *condition statement* **)** `then` *function()*
+- Only one(`1`) condition per **line**, the whole if statement must be in the same line(can't put the `else` statement in the next line):
   - **Correct** example: 
     ``` action
 	if ($var = true) then gotolabel(varIsTrue) else gotolabel(varIsFalse)
