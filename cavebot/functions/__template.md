@@ -14,9 +14,7 @@ Definição em português...
 
 <!-- tabs:end -->
 
-```action
-action()
-```
+**function**(`param`)
 
 
 - **Parameters**

@@ -9,6 +9,6 @@
 
 ## How to contribute? 
 
-You can create a fork of the project and then send a pull request.
+You can create a fork of the project and/or submit a `pull request`.
 
 

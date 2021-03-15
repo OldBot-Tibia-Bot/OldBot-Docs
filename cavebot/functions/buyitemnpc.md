@@ -5,12 +5,15 @@
 
 #### **English**
 
-Buy a specified amount of an item in the NPC nearby, it works by saying "hi", opening the Trade window and searching for the item to buy.
+Buy the specified amount of an item in the NPC nearby, it works by saying "hi", opening the Trade window and searching for the item to buy.
+
+> When buying **potions** or **runes**, it will filter the Trade window list before buying.
 
 #### **Portuguese**
 
-Compra uma quantidade especificada de um item no NPC por perto, o funcionamento se dá falando "hi", abrindo a janela do Trade e procurando pelo item para comprar.
+Compra a quantidade especificada de um item no NPC por perto, o funcionamento se dá falando "hi", abrindo a janela do Trade e procurando pelo item para comprar.
 
+> Ao comprar **potions** ou **runes**, irá filtrar a lista do Trade window antes de comprar.
 
 <!-- tabs:end -->
 
