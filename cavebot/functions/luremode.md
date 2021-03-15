@@ -39,13 +39,13 @@ You don't need to add many waypoints with `luremode` in different parts of the s
 
 **Examples**
 
-1. Sets the lure mode to only stop to attack with 3 or more creatures in the Battle List:
+1. Sets the lure mode to only stop to attack with 3 or more creatures in the Battle List.
 
 ```action
 luremode(3)
 ```
 
-2. Get the selected user option value with name `amountCreaturesLure` and use it as the parameter for the lure mode function:
+2. Get the selected user option value with name `amountCreaturesLure` and use it as the parameter for the lure mode function.
 
 ```action
 $creaturesLure = getuseroption(amountCreaturesLure)

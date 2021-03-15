@@ -34,7 +34,7 @@ Returns the value of the widget upon success, or `-1` otherwise.
 
 **Examples**
 
-1. Get the potion selected in the *combobox* widget with `name` **potionToUse**, then check if have less than `100` and go to a label if true:
+1. Get the potion selected in the *combobox* widget with `name` **potionToUse**, then check if have less than `100` and go to a label if true.
 
 ```action
 $potion = getuseroption(potionToUse)
@@ -62,7 +62,7 @@ Widget JSON example:
 ```
 
 
-2. Get the ammunition selected in the *combobox* widget with `name` **distanceWeapon** and buy `1000` units of the item, decreasing the amount the char already have:
+2. Get the ammunition selected in the *combobox* widget with `name` **distanceWeapon** and buy `1000` units of the item, decreasing the amount the char already have.
 
 ```action
 $ammunition = getuseroption(distanceWeapon)
