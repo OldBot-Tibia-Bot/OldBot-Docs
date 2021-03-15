@@ -17,7 +17,7 @@ Obter o valor de uma configuração do JSON do script e guardar em uma variável
 **getsetting**(`setting path`)
 
 - **Parameters**
-  - `setting path:` the path of the setting, following the structure of the script json.
+  - `setting path:` the path of the setting, following the structure of the script JSON, separated by slash `/`.
 
 
 **Return Value**
