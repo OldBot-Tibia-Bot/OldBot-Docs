@@ -12,7 +12,7 @@ Go to the waypoint with the label name, if it's a number, go to the waypoint wit
 
 #### **Portuguese**
 
-Ir para o waypoint com o nome do label, se for um numero, irá para o waypoint com aquele número na Aba atual. Se o nome do label é o nome de uma `Aba`, irá para o primeiro waypoint dessa Aba.
+Ir para o waypoint com o nome do label, se for um número, irá para o waypoint com aquele número na `Aba` atual. Se o nome do label é o nome de uma `Aba`, irá para o primeiro waypoint dessa Aba.
 
 > Essa é uma das funções mais comuns e mais importantes, será usada em scripts com refill, deposit, check de localização, etc.
 
