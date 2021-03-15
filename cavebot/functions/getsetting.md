@@ -31,7 +31,7 @@ If I want to check if the **player on screen** alert is enabled, I open the scri
 
 ![](../../_media/cavebot/functions/getsetting_example.png)
 
-`alerts` is the main setting, it has other children settings, one of them is `playerOnScreen`, that also has children settings, we want to check the `enabled` setting.
+`alerts` is the main setting, it has other child settings, one of them is `playerOnScreen`, that also has child settings, we want to check the `enabled` setting.
 
 So the path will be `alerts/playerOnScreen/enabled`, and the getsetting function:
 ```action
