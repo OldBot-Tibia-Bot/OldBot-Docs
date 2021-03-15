@@ -23,7 +23,7 @@ Ir para o waypoint com o nome do label, se for um número, irá para o waypoint 
 **gotolabel**(`param`)
 
 - **Parameters**
-  - `param:` waypoint number, waypoint label or tab name
+  - `param:` waypoint number, waypoint label or tab name.
 
 
 **Return Value**
@@ -34,7 +34,7 @@ Returns `true` upon success, or `false` otherwise.
 
 **Examples:**
 
-1. Go to the waypoint with **label** "BuySupply" if has less than `50 mana potions`.
+1. Go to the waypoint with *label* **BuySupply** if has less than `50 mana potions`.
 ```action
 if (itemcount(mana potion) < 50) then gotolabel(BuySupply)
 ```
@@ -44,7 +44,7 @@ if (itemcount(mana potion) < 50) then gotolabel(BuySupply)
 gotolabel(1)
 ```
 
-2. Go to the first waypoint of a tab named `Hunt`.
+2. Go to the first waypoint of the `Tab` named **Hunt**.
 ```action
 gotolabel(Hunt)
 ```
