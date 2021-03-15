@@ -65,7 +65,7 @@ Widget JSON example:
 2. Get the ammunition selected in the *combobox* widget with `name` **distanceWeapon** and buy `1000` units of the item, decreasing the amount the char already have:
 
 ```action
-$ammunition = getuseroption(potionToUse)
+$ammunition = getuseroption(distanceWeapon)
 $ammunitionInBackpack = itemcount($ammunition)
 buyitemnpc($ammunition, 1000, $ammunitionInBackpack)
 ```
