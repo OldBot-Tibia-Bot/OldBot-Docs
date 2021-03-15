@@ -29,13 +29,13 @@ Returns `true` upon success, or `false` otherwise.
 
 **Examples**
 
-1. first example
+1. First example.
 
 ```action
 
 ```
 
-2. second example
+2. Second example.
 
 ```action
 
