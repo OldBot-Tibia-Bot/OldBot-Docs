@@ -6,6 +6,8 @@
 
 `Repository:` https://github.com/OldBot-Tibia-Bot/docs
 
+`OldBot PRO Roadmap:` https://trello.com/b/VmveWVc3/oldbot-pro-roadmap
+
 
 ## How to contribute? 
 
