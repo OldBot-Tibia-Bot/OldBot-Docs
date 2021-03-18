@@ -24,10 +24,10 @@ Obter o valor de uma configuração do JSON do script e guardar em uma variável
 
 Returns the setting value upon success, or `-1` otherwise.
 
-?> To know what is the setting path of the option you want to check, you must open the script JSON file in any text editor(I recommend *Sublime Text*) and follow its structure.
+?> To know what is the setting path of the option you want to check, you must open the script JSON file in any text editor(I recommend [Sublime Text](https://www.sublimetext.com/)) and follow its structure.
 
 
-If I want to check if the **player on screen** alert is disabled, I open the script JSON file and see this:
+For example, if I want to check if the **player on screen** alert is disabled, I open the script JSON file and see this:
 
 ![](../../_media/cavebot/functions/getsetting_example.png)
 
