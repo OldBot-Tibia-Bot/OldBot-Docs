@@ -124,19 +124,23 @@ It follows a very simple structure, to write if statement it's like this:<br>
 
 The `condition` and `value` of the condition statement can be variables aswell, as shown in the examples below:
 
-1. Example with Condition and Value as variables:
+1. Example with Condition and Value as variables.
 
-`if ($potion < $amount) then gotolabel(leaveHunt)`
+``` action
+if ($potion < $amount) then gotolabel(leaveHunt)
+```
 
+2. In this example, the variable **A_Hour** don't have the `$` symbol because it's a built-in variable of the bot, in this case actually an AutoHotkey variable.
 
-2. In this example, the variable **A_Hour** don't have the `$` symbol because it's a built-in variable of the bot, in this case actually an AutoHotkey variable:
+``` action
+if (A_Hour = $serverSaveHour) then gotolabel(serverSave)
+```
 
-`if (A_Hour = $serverSaveHour) then gotolabel(serverSave)`
+3. Another example with a built-in variable of the bot, using the `posz` variable, that stores the floor level that the char is.
 
-
-3. Another example with a built-in variable of the bot, using the `posz` variable, that stores the floor level that the char is:
-
-`if (posz = 7) then gotolabel(groundFloor)`
+``` action
+if (posz = 7) then gotolabel(groundFloor)
+```
 
 ## Examples
 
@@ -172,6 +176,7 @@ buyitemnpc(strong mana potion, $amountOfPotions, $potionsLeft)
 
 # Rules & limitations
 
+- It's **not** case sentitive.
 - It's **not** possible to use logical operators such as `OR` and `AND`:
   - **Example1:** *if ($var1 = true* `||` *$var2 = true) then function()* 
   - **Example2:** *if ($var1 = true* `&&` *$var2 > 25) then function()* 
