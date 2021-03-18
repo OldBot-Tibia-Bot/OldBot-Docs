@@ -318,7 +318,7 @@ This lets you choose an option from a few pre-specified options or a list of ing
 
 # How do I read those values?
 
-To read the widgets' values, we'll be using the `getuseroption` function. For more details of how this action works, read the getuseroption documentation.
+To read the widgets' values, we'll be using the [`getuseroption()`](cavebot/functions/getuseroption.md) function. For more details of how this action works, read the [`getuseroption()`](cavebot/functions/getuseroption.md) documentation.
 
 ``` action
 $huntFloorOne = getuseroption(huntFloor1)
