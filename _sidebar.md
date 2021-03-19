@@ -17,11 +17,15 @@ Cavebot
     - [luremode](cavebot/functions/luremode.md)
     - [luremodestop](cavebot/functions/luremodestop.md)
     - [presskey](cavebot/functions/presskey.md)
+    - [reachlocation](cavebot/functions/reachlocation.md)
     - [say](cavebot/functions/say.md)
     - [sellitemnpc](cavebot/functions/sellitemnpc.md)
+    - [setsetting](cavebot/functions/setsetting.md)
     - [soulpoints](cavebot/functions/soulpoints.md)
     - [stamina](cavebot/functions/stamina.md)
+    - [takeitemfromstash](cavebot/functions/takeitemfromstash.md)
     - [travel](cavebot/functions/travel.md)
+    - [variable](cavebot/functions/variable.md)
   - [Script Setup](cavebot/script_setup.md)
   <!-- - [Variables](variables.md) -->
 
