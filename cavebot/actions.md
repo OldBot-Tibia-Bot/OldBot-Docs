@@ -174,7 +174,7 @@ buyitemnpc(strong mana potion, $amountOfPotions, $potionsLeft)
 
 ---
 
-# Rules & limitations
+# Syntax, Rules & Limitations
 
 - It's **not** case sentitive.
 - It's **not** possible to use logical operators such as `OR` and `AND`:

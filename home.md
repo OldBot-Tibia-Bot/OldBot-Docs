@@ -4,7 +4,7 @@
 >
 > It's still a working in progress with much left to do!
 
-`Repository:` https://github.com/OldBot-Tibia-Bot/docs
+`Repository:` https://github.com/alfredomtx/docs
 
 `OldBot PRO Roadmap:` https://trello.com/b/VmveWVc3/oldbot-pro-roadmap
 
