@@ -19,11 +19,12 @@ O lure mode altera o funcionamento do sistema do Targeting, irá contar as criat
 
 <!-- tabs:end -->
 
-**luremode**(`amount of creatures`)
+**luremode**(`amount of creatures`, `minimum amount*`)
 
 
 - **Parameters**
   - `amount of creatures:` the number of creatures in the Battle List to start attacking.
+  - `minimum amount:` optional param; minimum amount of creatures left after stopping to attack to ignore and keep walking.
 
 
 **Return Value**
@@ -39,13 +40,19 @@ You don't need to add many waypoints with `luremode` in different parts of the s
 
 **Examples**
 
-1. Sets the lure mode to only stop to attack with 3 or more creatures in the Battle List.
+1. Set lure mode to only stop to attack with 3 or more creatures in the Battle List.
 
 ```action
 luremode(3)
 ```
 
-2. Get the selected user option value with name `amountCreaturesLure` and use it as the parameter for the lure mode function.
+2. Set lure mode to stop the Cavebot to attack with 6+ creatures in the Battle List, and keep walking when there are less than 3.
+
+```action
+luremode(6, 3)
+```
+
+3. Get the selected user option value with name `amountCreaturesLure` and use it as the parameter for the lure mode function.
 
 ```action
 $creaturesLure = getuseroption(amountCreaturesLure)
