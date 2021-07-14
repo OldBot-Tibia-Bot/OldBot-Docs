@@ -12,7 +12,8 @@ To build the setup, we'll have to work with a markup language called `JSON`. If 
 ![](../_media/cavebot/script_setup/script_setup_1.png)
 
 ```json
-[{
+[
+{
 	"name": "generalInfo",
 	"text": "General Information",
 	"children": [
@@ -51,8 +52,8 @@ To build the setup, we'll have to work with a markup language called `JSON`. If 
 			"value": "Edron"
 		}
 	]
-}]
-
+}
+]
 ```
 
 
@@ -90,11 +91,13 @@ This is our main widget. It's inside it that we place all the other widgets.
 ![](../_media/cavebot/script_setup/group_widget.png)
 
 ```json
+[
 {
 	"name"     : "groupName",
 	"text"     : "Title",
 	"children" : []
 }
+]
 ```
 
 ---
@@ -114,6 +117,7 @@ A text control only, it's useful to show some information option or warn about s
 ![](../_media/cavebot/script_setup/text_widget.png)
 
 ```json
+[
 {
 	"name": "generalInfo",
 	"text": "General Information",
@@ -125,6 +129,7 @@ A text control only, it's useful to show some information option or warn about s
 		}
 	]
 }
+]
 ```
 
 ---
@@ -149,6 +154,7 @@ This is one of the simplest widgets. It's basically a text field, in which you c
 
 
 ```json
+[
 {
 	"name"     : "groupName",
 	"text"     : "Cool Title",
@@ -160,12 +166,14 @@ This is one of the simplest widgets. It's basically a text field, in which you c
 		}
 	]
 }
+]
 ```
 
 
 ![](../_media/cavebot/script_setup/lineedit2_widget.png)
 
 ```json
+[
 {
 	"name"     : "huntOptions",
 	"text"     : "Hunt Options",
@@ -178,6 +186,7 @@ This is one of the simplest widgets. It's basically a text field, in which you c
 		}
 	]
 }
+]
 ```
 
 ---
@@ -199,6 +208,7 @@ This one is pretty simple too. You're probably used to it in most websites/softw
 ![](../_media/cavebot/script_setup/checkbox_widget.png)
 
 ```json
+[
 {
 	"name": "generalInfo",
 	"text": "General Information",
@@ -210,11 +220,13 @@ This one is pretty simple too. You're probably used to it in most websites/softw
 		}
 	]
 }
+]
 ```
 
 ![](../_media/cavebot/script_setup/checkbox2_widget.png)
 
 ```json
+[
 {
 	"name": "huntSettings",
 	"text": "Hunt Settings",
@@ -227,6 +239,7 @@ This one is pretty simple too. You're probably used to it in most websites/softw
 		}
 	]
 }
+]
 ```
 
 ---
@@ -253,6 +266,7 @@ This lets you choose an option from a few pre-specified options or a list of ing
 ![](../_media/cavebot/script_setup/combobox_widget.png)
 
 ```json
+[
 {
 	"name": "generalInfo",
 	"text": "General Information",
@@ -268,6 +282,7 @@ This lets you choose an option from a few pre-specified options or a list of ing
 		}
 	]
 }
+]
 ```
 
 
@@ -276,6 +291,7 @@ This lets you choose an option from a few pre-specified options or a list of ing
 ![](../_media/cavebot/script_setup/combobox2_widget.png)
 
 ```json
+[
 {
 	"name": "potionSettings",
 	"text"     : "Potion Settings",
@@ -290,6 +306,7 @@ This lets you choose an option from a few pre-specified options or a list of ing
 		}
 	]
 }
+]
 ```
 
 
@@ -298,6 +315,7 @@ This lets you choose an option from a few pre-specified options or a list of ing
 ![](../_media/cavebot/script_setup/combobox3_widget.png)
 
 ```json
+[
 {
 	"name": "paladinSettings",
 	"text"     : "Paladin Settings",
@@ -312,6 +330,7 @@ This lets you choose an option from a few pre-specified options or a list of ing
 		}
 	]
 }
+]
 ```
 
 ---
