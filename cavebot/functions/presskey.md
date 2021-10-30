@@ -32,7 +32,7 @@ Pressionar uma hotkey do teclado.
 
 - **Parameters**
   - `key:` name of the key, must be the **same** as in the [AutohHotkey's Key list](https://www.autohotkey.com/docs/KeyList.htm#keyboard).
-  - `repeat:` optional param; times to click, default is 1.
+  - `repeat:` optional param; times to press, default is 1.
   - `delay:` optional param; the interval delay in **miliseconds** after each key press, default is 250.
 
 
@@ -44,10 +44,10 @@ Nothing.
 
 **Examples**
 
-1. Press **down** arrow key 3 times, wait 500ms after each press.
+1. Press **Down** arrow key 3 times, wait 400ms after each press.
 
 ```action
-presskey(down, 3, 500)
+presskey(Down, 3, 400)
 ```
 
 2. Press **F1** key holding `Shift` once.
