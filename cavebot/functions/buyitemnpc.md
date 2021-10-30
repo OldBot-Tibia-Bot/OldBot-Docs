@@ -9,7 +9,7 @@ Buy the specified amount of an item in the NPC nearby, it works by saying "hi", 
 
 > When buying **potions** or **runes**, it will filter the Trade window list before buying.
 
-!> By default it buys the items very fast, but in some OT servers there is an additional delay to prevent buying items too fast, in this case you should adjust the internal Cavebot delay using this action:<br><br>**setsetting(cavebotSystem/buyItemDelay, 1200)**
+!> By default it buys the items very fast, but in some OT servers there is an additional delay to prevent buying items too fast, in this case you should adjust the internal Cavebot delay using this action before buying:<br><br>**setsetting(cavebotSystem/buyItemDelay, 1200)**
 
 
 #### **Portuguese**
