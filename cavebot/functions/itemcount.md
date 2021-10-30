@@ -7,13 +7,13 @@
 
 Count the quantity of the item you have.
 
-!> The item must be visible in the **Action Bar** for it to work.
+!> On `Tibia 11/12+`, the item must be visible in the **Action Bar** for it to work. In `other` client versions which the function is compatible, it will count all the items visible on the screen.
 
 #### **Portuguese**
 
 Conta a quantidade do item que você tem.
 
-!> O item deve estar visível na **Action bar** para que funcione.
+!> No `Tibia 11/12+`, o item deve estar visível na **Action bar** para que funcione. Em clientes de `outras` versões em que a função é compatível, irá contar todos os itens visíveis na tela.
 
 <!-- tabs:end -->
 

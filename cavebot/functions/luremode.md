@@ -32,9 +32,8 @@ O lure mode altera o funcionamento do sistema do Targeting, irá contar as criat
 Nothing.
 
 
-?> You can add a Action waypoint with the `luremode` function **only once** in the script.
-
-You don't need to add many waypoints with `luremode` in different parts of the script, once it runs the function, the lure mode will continue to be enabled until it reaches a [`luremodestop()`](cavebot/functions/luremodestop.md) function.
+?> You can add a Action waypoint with the `luremode` function **only once** in the script if you want.<br>
+You don't need to add many waypoints with `luremode` in different parts of the script unless you want to change the params, once it runs the function, the lure mode will continue to be enabled until it reaches a [`luremodestop()`](cavebot/functions/luremodestop.md) function.
 
 ---
 

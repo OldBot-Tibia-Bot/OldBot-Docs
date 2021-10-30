@@ -5,11 +5,11 @@
 
 #### **English**
 
-Set a value to a setting in the script JSON.
+Set a value to a setting in the script JSON. This is a very useful action that opens many possibilites to change settings while the Cavebot is running.
 
 #### **Portuguese**
 
-Setar o valor de uma configuração no JSON do script.
+Setar o valor de uma configuração no JSON do script. Essa é uma action muito útil que abre muitas possibilidades para alterar configurações enquanto o Cavebot está rodando.
 
 <!-- tabs:end -->
 
@@ -24,7 +24,7 @@ Setar o valor de uma configuração no JSON do script.
 
 Returns `true` upon success, or `false` otherwise.
 
-?> To know what is the setting path of the option you want to check, you must open the script JSON file in any text editor(I recommend [Sublime Text](https://www.sublimetext.com/)) and follow its structure.
+?> To know what is the setting path of the option you want to check, you must open the script JSON file in any text editor(recommended is [Sublime Text](https://www.sublimetext.com/)) and follow its structure.
 
 
 For example, if I want to enable the **player on screen** alert, I open the script JSON file and see this:
@@ -67,9 +67,24 @@ setsetting(targeting/targetList/swamp troll/ringHotkey, )
 
 ```
 
-5. disable the internal disconnected check of the Cavebot System, this allows the waypoints to run even if the character is disconnected(to interact with the client for example)..
+5. Disable the internal disconnected check of the Cavebot System, this allows the waypoints to run even if the character is disconnected(to interact with the client for example)..
 
 ```action
 setsetting(cavebotSystem/checkDisconnected, 0)
+```
+
+
+6. Change the **Cavebot Functioning Mode** when it is running(requires to restart the Cavebot), this is useful to get out of the `Coordinates` functioning mode in custom map areas where it may not be working correctly.
+
+```action
+setsetting(scriptSettings/cavebotFunctioningMode, Markers)
+reloadcavebot()
+
+# ...waypoints...
+
+setsetting(scriptSettings/cavebotFunctioningMode, Coordinates)
+reloadcavebot()
+
+# ...waypoints...
 ```
 

@@ -5,11 +5,11 @@
 
 #### **English**
 
-Walk to a coordinate.
+`Walk` to a coordinate.
 
 #### **Portuguese**
 
-Caminha até uma coordenada.
+Caminha(`Walk`) até uma coordenada.
 
 
 <!-- tabs:end -->

@@ -53,10 +53,14 @@ $textVar = getsetting(scriptVariables/messageText)
 messagebox($textVar)
 ```
 
-3. Increment the value of the variable named **triesDeposit**.
+3. Increment the value of the variable named **triesDeposit** and *log* the new value.
 
 ```action
 variable(triesDeposit, ++)
+
+# checking the new value
+$var = getsetting(scriptVariables/triesDeposit)
+log($var)
 ```
 
 3. Decrement the value of the variable named **triesDeposit**.

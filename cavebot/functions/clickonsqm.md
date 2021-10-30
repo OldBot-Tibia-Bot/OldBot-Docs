@@ -34,9 +34,9 @@ Nothing.
 
 **Examples**
 
-1. Right click on North SQM 3 times, wait 1000ms after each click.
+1. Right click on **North** SQM `3` times, wait `1000`ms after each click.
 
 ```action
-clickonsqm(right, N, 3, 1000)
+clickonsqm(Right, N, 3, 1000)
 ```
 

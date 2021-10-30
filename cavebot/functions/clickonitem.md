@@ -35,8 +35,8 @@ Returns `true` upon success, or `false` otherwise.
 
 **Examples**
 
-1. Right click on brown mushroom 3 times, wait 1000ms after each click.
+1. Right click on **brown mushroom** `3` times, wait `1000`ms after each click.
 
 ```action
-clickonitem(brown mushroom, right, 3, 1000)
+clickonitem(brown mushroom, Right, 3, 1000)
 ```

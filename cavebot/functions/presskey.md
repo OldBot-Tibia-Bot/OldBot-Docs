@@ -5,7 +5,7 @@
 
 #### **English**
 
-Press a keyboard hotkey.
+Press a keyboard hotkey or write words.
 
 > - Key modifiers:
 >   - Shift: `+`
@@ -16,7 +16,7 @@ Press a keyboard hotkey.
 
 #### **Portuguese**
 
-Pressionar uma hotkey do teclado.
+Pressionar uma hotkey do teclado ou escrever palavras.
 
 > - Key modifiers:
 >   - Shift: `+`
@@ -44,7 +44,7 @@ Nothing.
 
 **Examples**
 
-1. Press **Down** arrow key 3 times, wait 400ms after each press.
+1. Press **Down** arrow key `3` times, wait `400`ms after each press.
 
 ```action
 presskey(Down, 3, 400)
@@ -60,5 +60,12 @@ presskey(+F1)
 
 ```action
 presskey(^F1)
+```
+
+
+4. Write *"oldbot rocks"*.
+
+```action
+presskey(oldbot rocks)
 ```
 

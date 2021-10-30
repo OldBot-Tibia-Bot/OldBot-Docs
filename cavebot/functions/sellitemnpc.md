@@ -25,6 +25,9 @@ Vende toda a quantidade de um item que você tem no NPC por perto, o funcionamen
 
 Returns `true` upon success, or `false` otherwise.
 
+
+?> It's also possible to use the Item Lists as param of the function:<br>`sellitemnpc(LootList)`<br>`sellitemnpc(DepositList)`<br>`sellitemnpc(TrashList)`
+
 ---
 
 **Examples**
