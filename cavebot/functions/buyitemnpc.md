@@ -18,7 +18,7 @@ Compra a quantidade especificada de um item no NPC por perto, o funcionamento se
 
 > Ao comprar **potions** ou **runes**, irá filtrar a lista do Trade window antes de comprar.
 
-!> Por padrão o bot compra os items é muito rápido, mas em alguns OT serves há um delay adicional para previnir a compra muito rápida, nesse caso você deve ajustar o delay interno do Cavebot antes da compra usando essa action:<br>**setsetting(cavebotSystem/buyItemDelay, 1200)**
+!> Por padrão o bot compra os itens muito rápido, mas em alguns OT serves há um delay adicional para previnir a compra tão rápida, nesse caso você deve ajustar o delay interno do Cavebot antes da compra usando essa action:<br>**setsetting(cavebotSystem/buyItemDelay, 1200)**
 
 <!-- tabs:end -->
 
