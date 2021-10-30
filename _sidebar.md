@@ -31,7 +31,7 @@ Cavebot
 
 
 Modules
-  - [Healing](modules/healing/_healing.md)
+  - [Healing](modules/healing/healingg.md)
     - [Life Healing](modules/healing/life_healing.md)
     - [Mana Healing](modules/healing/mana_healing.md)
     - [Mana Train](modules/healing/mana_train.md)
