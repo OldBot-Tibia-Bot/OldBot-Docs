@@ -30,6 +30,8 @@ Cavebot
   <!-- - [Variables](variables.md) -->
 
 
+Modules
+  - [Healing](modules/healing.md)
 
 <!-- Targeting -->
   <!-- - [Configuration](configuration.md) -->

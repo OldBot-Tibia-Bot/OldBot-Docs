@@ -1,4 +1,3 @@
-#
 # Definition
 
 The `Action` script code isn't any real programming or scripting language, it is basically text that you write and the bot with its own interpreter, interprets ~~(really?)~~.

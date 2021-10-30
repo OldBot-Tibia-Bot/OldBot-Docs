@@ -1,4 +1,3 @@
-#
 # What's a Setup?
 
 The Setup is where the user who downloads your script, or even yourself, will be able to configure the script, to make it suit his needs. You could add options to enable or disable specific hunting areas, specify custom behavior and much more; there are endless possibilities.
