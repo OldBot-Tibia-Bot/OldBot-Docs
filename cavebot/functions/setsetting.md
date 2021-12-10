@@ -57,7 +57,7 @@ setsetting(reconnect/autoReconnect, 1)
 3. Stop the Ring Refill function.
 
 ```action
-setsetting(itemRefill/ringRefill, 0)
+setsetting(itemRefill/ringRefillEnabled, 0)
 ```
 
 4. Disable the `Equip Ring` function for the creature **swamp troll** in the Targeting settings, by changing the `ringHotkey` value, setting it to null(empty).
@@ -88,3 +88,14 @@ reloadcavebot()
 # ...waypoints...
 ```
 
+7. Stop the Persistent of ID 1.
+
+```action
+setsetting(persistent/1/enabled, 0)
+```
+
+8. Start the Persistent of ID 3.
+
+```action
+setsetting(persistent/3/enabled, 1)
+```
