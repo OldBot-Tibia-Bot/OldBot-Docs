@@ -60,14 +60,14 @@ setsetting(reconnect/autoReconnect, 1)
 setsetting(itemRefill/ringRefillEnabled, 0)
 ```
 
-4. Disable the `Equip Ring` function for the creature **swamp troll** in the Targeting settings, by changing the `ringHotkey` value, setting it to null(empty).
+4. Disable the `Equip Ring` function for the creature **swamp troll** in the Targeting settings, by changing the `ringHotkey` value, setting it empty.
 
 ```action
 setsetting(targeting/targetList/swamp troll/ringHotkey, )
 
 ```
 
-5. Disable the internal disconnected check of the Cavebot System, this allows the waypoints to run even if the character is disconnected(to interact with the client for example)..
+5. Disable the internal disconnected check of the Cavebot System, this allows the waypoints to run even if the character is disconnected(to interact with the client for example).
 
 ```action
 setsetting(cavebotSystem/checkDisconnected, 0)
