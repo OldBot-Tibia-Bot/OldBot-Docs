@@ -5,11 +5,11 @@
 
 #### **English**
 
-Set a value to a setting in the script JSON. This is a very useful action that opens many possibilites to change settings while the Cavebot is running.
+Set a value to a setting in the script JSON. This is a very useful action that opens many possibilites to change settings and start/stop functions while the Cavebot is running.
 
 #### **Portuguese**
 
-Setar o valor de uma configuração no JSON do script. Essa é uma action muito útil que abre muitas possibilidades para alterar configurações enquanto o Cavebot está rodando.
+Setar o valor de uma configuração no JSON do script. Essa é uma action muito útil que abre muitas possibilidades para alterar configurações e parar/iniciar funções enquanto o Cavebot está rodando.
 
 <!-- tabs:end -->
 
