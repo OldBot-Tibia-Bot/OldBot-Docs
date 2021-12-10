@@ -88,13 +88,13 @@ reloadcavebot()
 # ...waypoints...
 ```
 
-7. Stop the Persistent of ID 1.
+7. Stop the Persistent of ID `1`.
 
 ```action
 setsetting(persistent/1/enabled, 0)
 ```
 
-8. Start the Persistent of ID 3.
+8. Start the Persistent of ID `3`.
 
 ```action
 setsetting(persistent/3/enabled, 1)
