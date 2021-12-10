@@ -33,7 +33,7 @@ For example, if I want to enable the **player on screen** alert, I open the scri
 
 `alerts` is the main setting, it has other child settings, one of them is `playerOnScreen`, that also has child settings, we want to check the `enabled` setting.
 
-So the path will be `alerts/playerOnScreen/enabled`, and the setsetting function:
+So the path will be `alerts/playerOnScreen/enabled`, and the `setsetting` function:
 ```action
 setsetting(alerts/playerOnScreen/enabled, 1)
 ```
