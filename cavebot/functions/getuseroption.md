@@ -7,14 +7,14 @@
 
 Get the value of a setting from the **User Options** in the Scripts Settings tab(script setup) and store it in a variable, that can be used in functions and conditions.
 
-> It's what we use to get the value of what the user selected in the Script Setup and use it in the Actions.
+> It's used to get the value of what the user selected in the Script Setup and use it in the Actions.
 
 
 #### **Portuguese**
 
 Obter o valor de uma configuração do **User Options** na aba Script Settings(script setup) e guardar em uma variável, que pode ser usada em funções e condições.
 
-> É o que usamos para pegar o valor que o usuário selecionou no Script Setup e usar nas Actions.
+> É utilizado para pegar o valor que o usuário selecionou no Script Setup e usar nas Actions.
 
 <!-- tabs:end -->
 
@@ -83,7 +83,7 @@ Widget JSON example:
 			"text"        : "Distance weapon",
 			"description" : "Which distance weapon you will use?",
 			"filter"      : ["Ammunition", "Distance Weapons"],
-			"value"       : "spectral bolt"
+			"value"       : "diamond arrow"
 		}
 	]
 }
