@@ -18,7 +18,7 @@ Vende toda a quantidade de um item que você tem no NPC por perto, o funcionamen
 **sellitemnpc**(`item name`)
 
 - **Parameters**
-  - `item name:` name of the item to buy.
+  - `item name:` name of the item to sell.
 
 
 **Return Value**
