@@ -59,8 +59,6 @@ The action can have its own variables, that will have value only when running th
 
 To create a variable, you needed to write it as `$` and the variable name: `$variableName`. To assign a value to the variable, write the equal `=` signal with one space after the variable name(see the examples).
 
-A variable(currently) **can only receive a function as value**, that means a variable is only used to receive the result of a function. So you **can't** do something like `$var = 100`.
-
 ## Using variables
 
 Variables are commonly used in combination with the [`getuseroption()`](cavebot/functions/getuseroption.md) and [`getsetting()`](cavebot/functions/getsetting.md) functions, to get the User settings from the Script Setup(getuseroption) or the bot settings(getsetting).
@@ -80,6 +78,11 @@ $manaPotionSelected = getuseroption(manaPotionToUse)
 
 # buy 100 units of whatever is the mana potion the user selected in the "manaPotionToUse" option in the Script Setup
 buyitemnpc($manaPotionSelected, 100)
+```
+
+3. Create a variable named **item**, that will receive a string value `mana potion`.
+``` action
+$item = mana potion
 ```
 
 ?> **Important:** a variable can also be used to store the **status** of a function.
