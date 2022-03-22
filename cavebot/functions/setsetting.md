@@ -99,3 +99,8 @@ setsetting(persistent/1/enabled, 0)
 ```action
 setsetting(persistent/3/enabled, 1)
 ```
+9. Change the **Default menu click method** setting to `0`.
+
+```action
+setsetting(scriptSettings/defaultMenuClickMethod, 0)
+```
