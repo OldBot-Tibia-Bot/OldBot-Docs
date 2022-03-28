@@ -73,7 +73,6 @@ setsetting(targeting/targetList/swamp troll/ringHotkey, )
 setsetting(cavebotSystem/checkDisconnected, 0)
 ```
 
-
 6. Change the **Cavebot Functioning Mode** when it is running(requires to restart the Cavebot), this is useful to get out of the `Coordinates` functioning mode in custom map areas where it may not be working correctly.
 
 ```action
@@ -99,8 +98,15 @@ setsetting(persistent/1/enabled, 0)
 ```action
 setsetting(persistent/3/enabled, 1)
 ```
+
 9. Change the **Default menu click method** setting to `0`.
 
 ```action
 setsetting(scriptSettings/defaultMenuClickMethod, 0)
+```
+
+10. Change the default limit of how many times the bot scrolls down the Trade List when buying/selling items to NPC. The default is `60`. It may be needed to increase when buying items with the npc "Rock in a hard place".
+
+```action
+setsetting(cavebotSystem/scrollDownLimit, 120)
 ```
