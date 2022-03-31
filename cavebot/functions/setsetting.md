@@ -110,3 +110,19 @@ setsetting(scriptSettings/defaultMenuClickMethod, 0)
 ```action
 setsetting(cavebotSystem/scrollDownLimit, 120)
 ```
+
+11. Disable and enable the Alert `Image is found 1`, this will cause the "label" trigger from **Go to label** option to reset and be able to trigger again.
+
+```action
+setsetting(alerts/Image is found 1/enabled, 0)
+wait(1000)
+setsetting(alerts/Image is found 1/enabled, 1)
+`````
+
+12. Disable and enable the Persistent of ID `1`, this will cause the "label" trigger from **Go to label if itemcount** option to reset and be able to trigger again.
+
+```action
+setsetting(persistent/1/enabled, 0)
+wait(1000)
+setsetting(persistent/1/enabled, 1)
+```
