@@ -122,9 +122,11 @@ setsetting(alerts/Image is found 1/enabled, 1)
 12. Disable and enable the Persistent of ID `1`, this will cause the "label" trigger from **Go to label if itemcount** option to reset and be able to trigger again.
 
 ```action
-setsetting(persistent/1/enabled, 0)
+# ID of persistent "Go to label if itemcount"
+$persistentId = 1
+setsetting(persistent/$persistentId/enabled, 0)
 wait(1000)
-setsetting(persistent/1/enabled, 1)
+setsetting(persistent/$persistentId/enabled, 1)
 ```
 
 13. Change the Persistent "Go to label if itemcount" parameters from Cavebot, useful to set the values with information from the Script Setup.
