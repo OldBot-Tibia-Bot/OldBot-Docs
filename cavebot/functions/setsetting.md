@@ -126,3 +126,22 @@ setsetting(persistent/1/enabled, 0)
 wait(1000)
 setsetting(persistent/1/enabled, 1)
 ```
+
+13. Change the Persistent "Go to label if itemcount" parameters from Cavebot, useful to set the values with information from the Script Setup.
+```
+# ID of persistent "Go to label if itemcount"
+$persistentId = 14
+
+# Item to count
+$item = mana potion
+
+# Go to label if count is lower than:
+$countToLeave = 99
+
+# unlikely to change
+$keyItemName = 2
+$keyCountValue = 4
+
+setsetting(persistent/$persistentId/userValue/$keyItemName/item, $item)
+setsetting(persistent/$persistentId/userValue/$keyCountValue/value, $countToLeave)
+```
